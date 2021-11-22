@@ -1,5 +1,9 @@
 # vue-js
 
+## Vuetify Screenshot
+
+![image](https://user-images.githubusercontent.com/70178202/142784468-1f4b90bb-4165-48c7-ae2f-862bd7cd451c.png)
+
 ## Project setup
 ```
 npm install
