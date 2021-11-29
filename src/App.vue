@@ -1,14 +1,16 @@
 <template>
   <v-app>
-
+ 
     <v-row>
       <AppBar />
     </v-row>
     <Drawer />
     
-    <v-main>
-      <router-view/>
-    </v-main>
+    <div style="padding-left:60px">
+      <v-main>
+        <router-view/>
+      </v-main>
+    </div>
 
     <Navigator />
     <Footer />

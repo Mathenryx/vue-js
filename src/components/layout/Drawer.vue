@@ -27,7 +27,7 @@
           nav
           dense
         >
-          <v-list-item :to="{path: '/myFolders'}">
+          <v-list-item :to="{path: '/myFiles'}">
             <v-list-item-icon>
               <v-icon>mdi-folder</v-icon>
             </v-list-item-icon>
