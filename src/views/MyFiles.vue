@@ -18,11 +18,9 @@
       </v-card> 
     </v-col>  
   </v-row>
-
 </template>
 
 <script>
-
  export default {
    data: () => ({}),
     computed:{
