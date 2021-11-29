@@ -1,5 +1,5 @@
 <template>
-  <my-files />
+
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <bin />
+
 </template>
 
 <script>
