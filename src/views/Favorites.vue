@@ -1,4 +1,8 @@
 <template>
+<div style="margin:2%">
+    <div style="text-align:center; padding-bottom: 20px">
+      <h1>Favoritos</h1>
+    </div>
   <v-row>
     <v-col
       v-for="file in files"
@@ -10,6 +14,7 @@
       <Card :file="file"></Card>
     </v-col>  
   </v-row>
+</div>
 </template>
 
 <script>

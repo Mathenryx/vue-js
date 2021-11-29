@@ -1,5 +1,5 @@
 <template>
-<div style="padding-top:8%; padding-bottom:8%">
+<div>
   <v-card
     :loading="loading"
     class="mx-auto"
