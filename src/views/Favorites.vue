@@ -1,15 +1,9 @@
 <template>
-
+  <v-card></v-card>
 </template>
 
 <script>
-  import Favorites from '../components/Favorites'
-
-  export default {
-    name: 'Favorites',
-
-    components: {
-      Favorites,
-    },
-  }
+export default {
+  data: () => ({}),
+};
 </script>

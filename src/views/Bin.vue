@@ -1,15 +1,9 @@
 <template>
-
+<v-card></v-card>
 </template>
 
 <script>
-  import Bin from '../components/Bin'
-
-  export default {
-    name: 'Bin',
-
-    components: {
-      Bin,
-    },
-  }
+export default {
+  data: () => ({}),
+};
 </script>

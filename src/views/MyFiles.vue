@@ -1,15 +1,19 @@
 <template>
 
+<v-card>
+  {{files}}
+</v-card>
+
 </template>
 
 <script>
-  import MyFiles from '../components/MyFiles'
 
-  export default {
-    name: 'MyFiles',
-
-    components: {
-      MyFiles,
+ export default {
+   data: () => ({}),
+    computed:{
+      files(){
+        return this.$store.state.files
+      }
     },
   }
 </script>
