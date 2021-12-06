@@ -7,15 +7,16 @@
 
 ## Route - myFiles
 
-![image](https://user-images.githubusercontent.com/70178202/143870847-07ecd43f-278a-4635-acbd-b2997a79ffb2.png)
+![image](https://user-images.githubusercontent.com/70178202/143872921-2ac5ceac-156b-483a-bf50-256ce8b649b0.png)
+
 
 ## Route - Favorites
 
-![image](https://user-images.githubusercontent.com/70178202/143870736-6463c768-aab7-4401-b872-696c35086ec1.png)
+![image](https://user-images.githubusercontent.com/70178202/143872987-98c2369a-48ce-4ba4-85e7-8ee3c1523f98.png)
 
 ## Route - Bin
 
-![image](https://user-images.githubusercontent.com/70178202/143806894-664edd27-cd32-4c43-81f9-19c3dd5dca2a.png)
+![image](https://user-images.githubusercontent.com/70178202/143873068-45d6a04d-56b4-4a0a-807f-abc5f158669f.png)
 
 
 ## Project setup
