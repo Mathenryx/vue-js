@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
+import axios from 'axios'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -60,12 +60,30 @@ export default new Vuex.Store({
         "issueDate": "12/01/2021",
         "favorite": true
       },
-    ]
+    ],
+    events:[],
+    title: 'Meus Arquivos',
   },
   mutations: {
+    SET_EVENTS(state,payload){
+      state.events=payload
+    }
   },
   actions: {
+    getEvents({commit}){
+       axios.get('https://agenda-balaguer.herokuapp.com/api/event')
+       .then(res=>{
+        const payload = res.data.values
+        commit('SET_EVENTS', payload)
+       }
+      )
+      .catch(err=>(console.log(err)))
+    }
   },
-  modules: {
-  }
+  getters: {
+    toUpper(state){
+      return state.title.toUpperCase();
+    }
+  },
+
 })
